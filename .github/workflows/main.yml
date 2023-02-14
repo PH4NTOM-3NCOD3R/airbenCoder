@@ -14,12 +14,13 @@ on:
       SpeedProf:
         description: "SpeedProf"
         required: true
-        default: "2x576"
+        default: "2x540"
         type: choice
         options:
         - "0x720"
         - "2x720"
         - "2x540"
+        - "1x540"
       RoughQuality:
         description: "Lower Quality?"
         required: true
